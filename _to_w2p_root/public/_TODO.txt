@@ -1,0 +1,1 @@
+chmod +x web2py.fcgi

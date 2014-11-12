@@ -1,0 +1,6 @@
+AddHandler fcgid-script .fcgi
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} /x
+RewriteRule ^(.*)$ index.html [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ web2py.fcgi/$1 [QSA,L]

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -52,3 +53,46 @@ docs/_build/
 
 # PyBuilder
 target/
+=======
+*.tmp
+*.bak
+*.bk
+*.zip
+*.log
+*- kopie*.*
+____*.*
+
+maily/
+import_*/
+
+odpad*/
+Backup*/
+bk*/
+backup*/
+bin/
+tmp/
+log/
+logs/
+
+*.py[co]
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+
+uploads/
+downloads/
+databases/
+cache/
+private/
+errors/
+sessions/
+
+.installed.cfg
+pip-log.txt
+>>>>>>> 463933ba5e04d5ee9b4ea98c283bf726d1c7bb9a
